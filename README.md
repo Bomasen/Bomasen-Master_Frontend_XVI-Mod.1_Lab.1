@@ -1,4 +1,3 @@
-
 ## Módulo 1 - LAYOUT - Laboratorio 1 (Ejercicio Nº1 - Nº2)
 
 El proyecto se ha generado con el builder Vite.
@@ -24,3 +23,20 @@ Todo esto se debe modificar en el archivo style.scss, en la clase de cada conten
 ```
 
 `Ejercicio Nº2`
+Se ha generado un código Scss en el container-4 donde he aplicado varias reglas.
+En algunas de estas reglas de selectores he añadido variables genéricas para poder modificarlas con el import del tema en concreto. Las variables son las siguientes:
+
+```
+$color-theme
+$color-font-theme
+$primary-font-theme
+$secondary-font-theme
+$border-radius-theme
+$box-shadow-theme
+```
+
+Para poder añadir el tema, es suficiente con importar el tema A o el tema B de la siguiente forma:
+
+```
+@use "theme-A" as *;
+```
